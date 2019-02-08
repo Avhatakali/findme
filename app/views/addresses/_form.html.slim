@@ -1,0 +1,18 @@
+= form_with(model:[@user, @address], local: true) do |form|
+  = form.label :number
+  br
+  = form.text_field :nmuber
+  br
+  = form.label :street
+  br
+  = form.text_field :street
+  br
+  = form.label :suburb
+  br
+  = form.text_field :suburb
+  br
+  = form.label :city
+  br
+  = form.text_field :city
+  br
+  = form.submit

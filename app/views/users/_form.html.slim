@@ -1,0 +1,14 @@
+= form_with(model:@user, local: true) do |form|
+  = form.label :'first name'
+  br
+  = form.text_field :first_name
+  br
+  = form.label :'last name'
+  br
+  = form.text_field :last_name
+  br
+  = form.label :age
+  br
+  = form.text_field :age
+  br
+  = form.submit

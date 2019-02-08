@@ -1,0 +1,7 @@
+h4 user's details and address
+
+p = "#{@user.first_name} #{@user.last_name} of age  #{@user.age}"
+
+p = "lives at #{@user.address.city} in #{@user.address.suburb} #{@user.address.number}, #{@user.address.street} street"
+
+= link_to 'index', users_path
